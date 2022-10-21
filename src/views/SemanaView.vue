@@ -15,7 +15,7 @@
         </header>
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="col-md-10 col-lg-8 col-xl-7 text-justify">
                     <p v-for="(paragraph,key) in paragraphs" :key="`paragraph-${key}`">
                         <span v-html="paragraph.content"></span> <span>({{paragraph.quote}})</span>
                     <ul v-if="paragraph.list">
@@ -80,5 +80,7 @@ export default {
 }
 </script>
 <style scoped>
-
+.text-justify {
+    text-align: justify;
+}
 </style>
