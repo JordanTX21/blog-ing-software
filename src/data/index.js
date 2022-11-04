@@ -393,16 +393,28 @@ export default [
         ],
         references: [
             {
-                title: '',
-                link: ''
+                title: 'Calidad de software',
+                link: 'Calidad_software-with-cover-page-v2.PDF (d1wqtxts1xzle7.cloudfront.net)'
             },
             {
-                title: '',
-                link: ''
+                title: '¿Cuáles son los principios de la gestión de calidad?',
+                link: 'ios de la gestión de calidad?: https://www.nueva-iso-9001-2015.com/2017/07/principios-de-gestion-de-la-calidad/#:~:text=Principio%205%3A%20Enfoque%20de%20sistema,logro%20de%20los%20objetivos%20marcados'
             },
             {
-                title: '',
-                link: ''
+                title: 'Principios de calidad: Mejora continua',
+                link: 'https://aprendiendocalidadyadr.com/principios-de-calidad-mejora-continua/'
+            },
+            {
+                title: 'Enfoque basado en hechos para la toma de decision',
+                link: 'http://normas-iso-9000.blogspot.com/2007/11/enfoque-basado-en-hechos-para-la-toma.html'
+            },
+            {
+                title: 'ISO 9001',
+                link: 'https://www.nueva-iso-9001-2015.com/2014/11/iso-9001-entendiendo-enfoque-basado-procesos/#:~:text=Este%20enfoque%20basado%20en%20procesos,la%20satisfacci%C3%B3n%20de%20sus%20requisitos'
+            },
+            {
+                title: 'Quesada Madriz Gilberto. (2005, septiembre 2).Los 8 principios de gestión de la calidad',
+                link: 'https://www.gestiopolis.com/los-8-principios-de-gestion-de-la-calidad/'
             },
         ]
     },

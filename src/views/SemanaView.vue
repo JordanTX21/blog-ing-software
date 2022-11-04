@@ -17,7 +17,7 @@
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7 text-justify">
                     <p v-for="(paragraph,key) in paragraphs" :key="`paragraph-${key}`">
-                        <span v-html="paragraph.content"></span> <span>({{paragraph.quote}})</span>
+                        <span v-html="paragraph.content"></span> <span v-if="paragraph.quote">({{paragraph.quote}})</span>
                     <ul v-if="paragraph.list">
                         <li v-for="(item,index) in paragraph.list" :key="`item-${key}-${index}`" v-html="item"></li>
                     </ul>
