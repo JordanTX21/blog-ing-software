@@ -219,27 +219,27 @@ export default [
         by: 'Grupo 4',
         paragraphs: [
             {
-                content: 'Si hablamos de diseño y desarrollo de aplicaciones, los principios SOLID son unas palabras que debes conocer como uno de los fundamentos de la arquitectura y desarrollo de software; SOLID es el acrónimo que acuñó Michael Feathers, basándose en los principios de la programación orientada a objetos que Robert C. Martin había recopilado en el año 2000 en su paper “Design Principles and Design Patterns”; ocho años más tarde, el tío Bob siguió compendiando consejos y buenas prácticas de desarrollo y se convirtió en el padre del código limpio con su célebre libro Clean Code.',
+                content: 'Si hablamos de diseño y desarrollo de aplicaciones, los principios SOLID son unas palabras que debes conocer como uno de los fundamentos de la arquitectura y desarrollo de software; SOLID es el acrónimo que acuñó Michael Feathers, basándose en los principios de la programación orientada a objetos que Robert C. Martin había recopilado en el año 2000 en su paper “Design Principles and Design Patterns”; ocho años más tarde, el tío Bob siguió compendiando consejos y buenas prácticas de desarrollo y se convirtió en el padre del código limpio con su célebre libro Clean Code',
                 quote: 'María J, 2018'
             },
             {
-                content: '<strong>S: Principio de responsabilidad única</strong><br>Como su propio nombre indica, establece que una clase, componente o microservicio debe ser responsable de una sola cosa (el tan aclamado término “decoupled” en inglés). Si por el contrario, una clase tiene varias responsabilidades, esto implica que el cambio en una responsabilidad provocará la modificación en otra responsabilidad.',
+                content: '<strong>S: Principio de responsabilidad única</strong><br>Como su propio nombre indica, establece que una clase, componente o microservicio debe ser responsable de una sola cosa (el tan aclamado término “decoupled” en inglés). Si por el contrario, una clase tiene varias responsabilidades, esto implica que el cambio en una responsabilidad provocará la modificación en otra responsabilidad',
                 quote: 'Carlos M, 2019'
             },
             {
-                content: '<strong>O: Principio abierto/cerrado</strong><br>El principio Abierto-Cerrado es probablemente el más fácil de aplicar de los 5, Bertrand Meyer es el responsable de acuñar el término open/closed principle en su libro “Object Oriented Software Construction” de 1998 aunque fue popularizado junto a los otros principios del acrónimo SOLID por Martin Fowler una década más tarde.',
+                content: '<strong>O: Principio abierto/cerrado</strong><br>El principio Abierto-Cerrado es probablemente el más fácil de aplicar de los 5, Bertrand Meyer es el responsable de acuñar el término open/closed principle en su libro “Object Oriented Software Construction” de 1998 aunque fue popularizado junto a los otros principios del acrónimo SOLID por Martin Fowler una década más tarde',
                 quote: 'Samuel G, 2015'
             },
             {
-                content: '<strong>L: Principio de substitución de Liskov</strong><br>El principio de sustitución de Liskov nos dice que si en alguna parte de nuestro código estamos usando una clase, y esta clase es extendida, tenemos que poder utilizar cualquiera de las clases hijas y que el programa siga siendo válido; esto nos obliga a asegurarnos de que cuando extendemos una clase no estamos alterando el comportamiento de la padre; este principio viene a desmentir la idea preconcebida de que las clases son una forma directa de modelar la realidad, y que hay que tener cuidado con esa modelización.',
+                content: '<strong>L: Principio de substitución de Liskov</strong><br>El principio de sustitución de Liskov nos dice que si en alguna parte de nuestro código estamos usando una clase, y esta clase es extendida, tenemos que poder utilizar cualquiera de las clases hijas y que el programa siga siendo válido; esto nos obliga a asegurarnos de que cuando extendemos una clase no estamos alterando el comportamiento de la padre; este principio viene a desmentir la idea preconcebida de que las clases son una forma directa de modelar la realidad, y que hay que tener cuidado con esa modelización',
                 quote: 'Antonio L, 2016'
             },
             {
-                content: '<strong>I: Principio de segregación de interfaz</strong><br>El principio de segregación de interfaces viene a decir que ninguna clase debería depender de métodos que no usa. Por tanto, cuando creemos interfaces que definen comportamientos, es importante estar seguros de que todas las clases que implementen esas interfaces vayan a necesitar y ser capaces de agregar comportamientos a todos los métodos. En caso contrario, es mejor tener varias interfaces más pequeñas; las interfaces nos ayudan a desacoplar módulos entre sí. Esto es así porque si tenemos una interfaz que explica el comportamiento que el módulo espera para comunicarse con otros módulos, nosotros siempre podremos crear una clase que lo implemente de modo que cumpla las condiciones.',
+                content: '<strong>I: Principio de segregación de interfaz</strong><br>El principio de segregación de interfaces viene a decir que ninguna clase debería depender de métodos que no usa. Por tanto, cuando creemos interfaces que definen comportamientos, es importante estar seguros de que todas las clases que implementen esas interfaces vayan a necesitar y ser capaces de agregar comportamientos a todos los métodos. En caso contrario, es mejor tener varias interfaces más pequeñas; las interfaces nos ayudan a desacoplar módulos entre sí. Esto es así porque si tenemos una interfaz que explica el comportamiento que el módulo espera para comunicarse con otros módulos, nosotros siempre podremos crear una clase que lo implemente de modo que cumpla las condiciones',
                 quote: 'Antonio L, 2016'
             },
             {
-                content: '<strong>D: Principio de inversión de dependencias</strong><br>El principio de Inversión de dependencias fue postulado a mediados de los noventa por nuestro conocido Robert C. Martin (Uncle Bob) y descrito en numerosas publicaciones, incluido un artículo que apareció en el Informe de C ++ en mayo de 1996 titulado: The Dependency Inversion Principle.',
+                content: '<strong>D: Principio de inversión de dependencias</strong><br>El principio de Inversión de dependencias fue postulado a mediados de los noventa por nuestro conocido Robert C. Martin (Uncle Bob) y descrito en numerosas publicaciones, incluido un artículo que apareció en el Informe de C ++ en mayo de 1996 titulado: The Dependency Inversion Principle',
                 quote: 'Julio M, 2020',
                 list: [
                     'a) Los módulos de alto nivel no deberían depender de los de bajo nivel. Ambos deberían depender de abstracciones.',
@@ -251,14 +251,14 @@ export default [
                 quote: '',
                 list: [
                     'Participación del cliente: Los clientes deben intervenir estrechamente durante el proceso de desarrollo (Pressman, 2010).',
-                    'Entrega incremental: El software se desarrolla en incrementos incluyendo requerimientos que el cliente solicite en cada incremento(Pressman, 2010).',
+                    'Entrega incremental: El software se desarrolla en incrementos incluyendo requerimientos que el cliente solicite en cada incremento (Pressman, 2010).',
                     'Personas, no procesos: Reconocer y aprovechar las habilidades del equipo de desarrollo (Pressman, 2010).',
                     'Adoptar el cambio: Debemos esperar los cambios que se harán en los requerimientos del sistema para así poder diseñarlo adaptados a estos (Pressman, 2010).',
                     'Mantener simplicidad: Enfocarse en la simplicidad tanto en el software a desarrollar como en el proceso de desarrollo (Pressman, 2010).'
                 ]
             },
             {
-                content: '<strong>CONCLUSIÓN:</strong><br>En general, los principios de diseño de software ayudan a los ingenieros de software a identificar qué lógica de programación implementar para diferentes proyectos de desarrollo. Los ingenieros de software confían en gran medida en trabajar con bases de código que integran un alto nivel de alfabetización de código dentro de las estructuras de programación; como resultado, el código más simple facilita la modificación, actualización y mantenimiento del rendimiento del código; por último, los desarrolladores incorporan varios principios de diseño de software para refactorizar mejor las secuencias de código dentro de las infraestructuras de programación que satisfacen a los usuarios finales.',
+                content: '<strong>CONCLUSIÓN:</strong><br>En general, los principios de diseño de software ayudan a los ingenieros de software a identificar qué lógica de programación implementar para diferentes proyectos de desarrollo. Los ingenieros de software confían en gran medida en trabajar con bases de código que integran un alto nivel de alfabetización de código dentro de las estructuras de programación; como resultado, el código más simple facilita la modificación, actualización y mantenimiento del rendimiento del código; por último, los desarrolladores incorporan varios principios de diseño de software para refactorizar mejor las secuencias de código dentro de las infraestructuras de programación que satisfacen a los usuarios finales',
                 quote: 'Angelo F, 2021'
             },
         ],
@@ -328,31 +328,31 @@ export default [
         by: 'Grupo 4',
         paragraphs: [
             {
-                content: 'El software ha entrado en un cambio desde el desarrollo artesanal hasta el seguimiento de procedimientos estandarizados y normados que permitan obtener mejor desempeño del producto. Adecuar el concepto de calidad total al proceso de la ingeniería de software es una actividad ampliamente discutida y muy poco aceptada entre los grupos de desarrollo de software.',
-                quote: 'Arias and Montesdeoca'
+                content: 'El software ha entrado en un cambio desde el desarrollo artesanal hasta el seguimiento de procedimientos estandarizados y normados que permitan obtener mejor desempeño del producto. Adecuar el concepto de calidad total al proceso de la ingeniería de software es una actividad ampliamente discutida y muy poco aceptada entre los grupos de desarrollo de software',
+                quote: 'Montesdeoca, 2005'
             },
             {
-                content: 'Las técnicas de calidad aplicadas a los ámbitos empresariales y de manufactura han sido adaptadas al software por medio de estándares y modelos que permiten enfocar la calidad en aspectos específicos de software resaltando siempre la idea fundamental de la calidad total y Mejoramiento Continuo. ',
-                quote: 'Irurita and Villanueva'
+                content: 'Las técnicas de calidad aplicadas a los ámbitos empresariales y de manufactura han sido adaptadas al software por medio de estándares y modelos que permiten enfocar la calidad en aspectos específicos de software resaltando siempre la idea fundamental de la calidad total y Mejoramiento Continuo',
+                quote: 'Villanueva, 2012'
             },
             {
                 content: 'La evaluación de la calidad es, en esencia, subjetiva, por lo que es necesario recurrir a indicadores para que presenten de una manera más directa el impacto de cada actividad realizada, por la ingeniería de software, en las expectativas del cliente.',
-                quote: 'Arias and Montesdeoca'
+                quote: 'Montesdeoca, 2005'
             },
             {
                 content: '<strong>Principio 1: Enfoque al Cliente</strong><br>Este enfoque consiste en satisfacer las necesidades de los clientes, incluyendo las expectativas, cada vez que se interactúe con un cliente existe la posibilidad de crear más valor para este, por esto se necesita comprender las necesidades presentes y futuras, tanto de los clientes como de otras partes interesadas como por ejemplo proveedores',
-                quote: 'Salinas ,2008'
+                quote: 'Salinas, 2008'
             },
             {
                 content: '<strong>Principio 2: Liderazgo</strong><br>El enfoque de liderazgo donde las personas como organizaciones pueden adaptarse de manera exitosa a situaciones cambiantes, el líder debe guiar o acompañar a los que tienen el “problema” durante el proceso, y hacer que este sea lo más ligero posible',
-                quote: 'Natalia,2022'
+                quote: 'Natalia, 2022'
             },
             {
                 content: 'El papel de liderazgo en la gestión de la calidad es la columna vertebral de cualquier estrategia de mejora. Los líderes proporcionan una unidad de propósito al tiempo que establecen la dirección de la organización, como tal, la responsabilidad de los líderes consiste en crear y mantener el ambiente interno',
-                quote: 'Anónimo,2018'
+                quote: 'Anónimo, 2018'
             },
             {
-                content: '<strong>Principio 3: Participación del personal</strong><br>Independientemente del sector de actividad y del tamaño de la organización, las personas son el principal factor para que una empresa defina su destino hacia el éxito o el fracaso. El compromiso de las personas involucradas en un requisito indispensable en el proceso de implantación y mantenimiento de un sistema de gestión de la calidad, basado en la norma ISO 9001.',
+                content: '<strong>Principio 3: Participación del personal</strong><br>Independientemente del sector de actividad y del tamaño de la organización, las personas son el principal factor para que una empresa defina su destino hacia el éxito o el fracaso. El compromiso de las personas involucradas en un requisito indispensable en el proceso de implantación y mantenimiento de un sistema de gestión de la calidad, basado en la norma ISO 9001',
                 quote: 'Gomez, 2015'
             },
             {
@@ -364,7 +364,7 @@ export default [
                 quote: 'Escuela Europea, 2017'
             },
             {
-                content: '<strong>Principio 6: Mejora continua</strong><br>La mejora continua (MC) y la Reingeniería (R) son un medio eficaz para desarrollar cambios positivos que van a permitir ahorrar dinero tanto para la empresa como para los clientes, ya que las fallas de calidad cuestan dinero.',
+                content: '<strong>Principio 6: Mejora continua</strong><br>La mejora continua (MC) y la Reingeniería (R) son un medio eficaz para desarrollar cambios positivos que van a permitir ahorrar dinero tanto para la empresa como para los clientes, ya que las fallas de calidad cuestan dinero',
                 quote: 'Geihsy, 2014'
             },
             {
