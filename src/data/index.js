@@ -328,7 +328,7 @@ export default [
         by: 'Grupo 4',
         paragraphs: [
             {
-                content: 'El software ha entrado en un cambio desde el desarrollo artesanal hasta el seguimiento de procedimientos estandarizados y normados que permitan obtener mejor desempeño del producto. Adecuar el concepto de calidad total al proceso de la ingeniería de software es una actividad ampliamente discutida y muy poco aceptada entre los grupos de desarrollo de software',
+                content: 'El software ha entrado en un cambio desde el desarrollo artesanal hasta el seguimiento de procedimientos estandarizados y normados que permitan obtener mejor desempeño del producto; por ende, adecuar el concepto de calidad total al proceso de la ingeniería de software es una actividad ampliamente discutida y muy poco aceptada entre los grupos de desarrollo de software',
                 quote: 'Montesdeoca, 2005'
             },
             {
@@ -340,7 +340,7 @@ export default [
                 quote: 'Montesdeoca, 2005'
             },
             {
-                content: '<strong>Principio 1: Enfoque al Cliente</strong><br>Este enfoque consiste en satisfacer las necesidades de los clientes, incluyendo las expectativas, cada vez que se interactúe con un cliente existe la posibilidad de crear más valor para este, por esto se necesita comprender las necesidades presentes y futuras, tanto de los clientes como de otras partes interesadas como por ejemplo proveedores',
+                content: '<strong>Principio 1: Enfoque al Cliente</strong><br>El enfoque al cliente es el primer principio de los sistemas de gestión de calidad, la norma ISO 9001 lo reservo en el primer lugar a este principio porque la política de objetivos y calidad se basan en dicho principio; así mismo, este enfoque consiste en satisfacer las necesidades de los clientes, incluyendo las expectativas, cada vez que se interactúe con un cliente existe la posibilidad de crear más valor para este, por esto se necesita comprender las necesidades presentes y futuras, tanto de los clientes como de otras partes interesadas como por ejemplo proveedores',
                 quote: 'Salinas, 2008'
             },
             {
