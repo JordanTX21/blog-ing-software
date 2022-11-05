@@ -290,7 +290,7 @@ export default [
         ]
     },
     {
-        title: 'Semana 06',
+        title: 'Gestión de la configuración y arquitectura de software',
         date: '21 de Octubre del 2022',
         by: 'Grupo 4',
         paragraphs: [
