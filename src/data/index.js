@@ -295,30 +295,82 @@ export default [
         by: 'Grupo 4',
         paragraphs: [
             {
-                content: '',
-                quote: ''
+                content: 'La Gestión de la Configuración del Software (GCS) es un proceso de  ingeniería, que indica procedimientos técnicos para el control y mejora de la calidad del software; los subprocesos o fases que lo  conforman  son:  Identificación  de  la  Configuración,  Control  de  Cambios,  Control  de  Versiones, Informes de Estado, Auditoría de la Configuración',
+                quote: 'Paredes, 2011'
             },
             {
-                content: '',
-                quote: ''
+                content: 'Las organizaciones dedicadas al desarrollo de software generalmente organizan sus negocios en proyectos los cuales son gestionados por personas diferentes,lo cual genera redundancia en los servicios de soporte de proyectos diferentes; como una alternativa de solución a la redundancia, se describe una arquitectura de software basada en servicios web orientada a la búsqueda de soluciones a los requerimientos de software solicitados a los servicios de soporte; las soluciones a los requerimientos están almacenadas en repositorios distribuidos por proyectos los cuales se deben recuperar por medio de buscadores implementados con servicios web lo cual mejora la interoperabilidad y la redundancia',
+                quote: 'Contreras, 2012'
             },
             {
-                content: '',
-                quote: ''
+                content: 'La gestión de configuración de software(GCS) es uno de los procesos clave para toda la organización dedicada a la Ingeniería del software posibilitando una mejor organización del desarrollo y mantenimiento',
+                quote: 'Daniele, 2010; Uva, 2010; Martelloto, 2010; Picco, 2010'
+            },
+            {
+                content: 'La gestión de configuración de software está compuesta por distintas actividades desarrolladas para la gestión y registro de los cambios a lo largo del ciclo de vida del software',
+                quote: 'Daniele, 2010; Uva, 2010; Martelloto, 2010; Picco, 2010'
+            },
+            {
+                content: '<strong>Arquitectura de software</strong><br>La arquitectura nos permite planificar a priori nuestro desarrollo y elegir el mejor conjunto de herramientas para llevar a cabo nuestros proyectos, es por tanto un paso crítico antes siquiera de pasar a programar ya que determinará en gran medida el ritmo del desarrollo e incluso los factores económicos y humanos durante el proceso',
+                quote: 'Huet, 2022'
+            },
+            {
+                content: '<strong>Patrón Cliente Servidor</strong><br>La capacidad para separar la lógica de la aplicación de la gestión de la base de datos y repartirlas en dos CPUs, permite a los sistemas cliente disponer de más potencia que, a su vez, les permitirá ejecutar los nuevos entornos gráficos, proporcionando al usuario un acceso más sencillo e intuitivo a la información que necesita; al mismo tiempo, están disponibles toda una serie de nuevas prestaciones a nivel de gestores de bases de datos en cuanto a informática distribuida',
+                quote: 'Nucba, 2021'
+            },
+            {
+                content: '<strong>Patrón Capas / Layers</strong><br>La arquitectura en capas es un patrón de arquitectura software usada en la gran mayoría de sistemas; así esta, se centra en una distribución jerárquica de los roles y responsabilidades proporcionando una separación efectiva de las preocupaciones (cada cual se encarga de lo que le corresponde)',
+                quote: 'Costanzo, 2019'
+            },
+            {
+                content: '<strong>Patrón modelo-vista-controlador</strong><br>MVC era inicialmente un patrón arquitectural, un modelo o guía que expresaba cómo organizar y estructurar los componentes de un sistema software, sus responsabilidades y las relaciones existentes entre cada uno de ellos',
+                quote: 'Aguilar, 2019'
+            },
+            {
+                content: '<strong>Patrón maestro / esclavo</strong><br>El patrón de diseño Maestro / Esclavo es otra arquitectura fundamental que usan los desarrolladores de LabVIEW. Se utiliza cuando tiene dos o más procesos que deben ejecutarse de forma simultánea y continua, pero a diferentes velocidades; así, si estos procesos se ejecutan en un solo bucle, pueden producirse graves problemas de sincronización',
+                quote: 'NATIONAL INSTRUMENTS CORP, 2022'
+            },
+            {
+                content: '<strong>Patrón Broker</strong><br>El Broker es un patrón de arquitectura que se utiliza para estructurar sistemas de software distribuidos con componentes desacoplados que interactúan por invocaciones de servicios remotos; esto quiere decir que, si un componente necesita un servicio de otro que está en otra ubicación que no conoce, el broker se encarga de proporcionar la conexión',
+                quote: 'Aprendearquitecturasoftware, 2018'
             },
         ],
         references: [
             {
-                title: '',
-                link: ''
+                title: 'Gestión de la Configuración del Software',
+                link: 'https://w3.ual.es/~rguirado/posi/Tema5-Apartado5.pdf'
             },
             {
-                title: '',
-                link: ''
+                title: 'Daniele, M., Uva, M., Martellotto, P., & Picco, G. (2010). Aplicación de herramientas CASE a la enseñanza de Ingeniería de Software: Gestión de la Configuración de Software y Testing Funcional. In V Congreso de Tecnología en Educación y Educación en Tecnología.',
+                link: 'Título del trabajo (unlp.edu.ar)'
             },
             {
-                title: '',
-                link: ''
+                title: '¿Qué es la arquitectura cliente-servidor?',
+                link: 'https://nucba.medium.com/qu%C3%A9-es-la-arquitectura-cliente-servidor-eb9f402506cc'
+            },
+            {
+                title: 'Qué es la arquitectura de software',
+                link: 'https://openwebinars.net/blog/arquitectura-de-software-que-es-y-que-tipos-existen/'
+            },
+            {
+                title: 'Patrón Arquitectónico de Capas / Layers',
+                link: 'https://platzi.com/tutoriales/1248-pro-arquitectura/5439-patron-arquitectonico-de-capas-layers/'
+            },
+            {
+                title: 'La importancia de la Gestión de la Configuración del Software,  en una Empresa de Desarrollo.',
+                link: 'https://journal.espe.edu.ec/ojs/index.php/geeks/article/view/257/234'
+            },
+            {
+                title: '¿Qué es el patrón MVC en programación y por qué es útil?',
+                link: 'https://www.campusmvp.es/recursos/post/que-es-el-patron-mvc-en-programacion-y-por-que-es-util.aspx'
+            },
+            {
+                title: 'Patrones de diseño de aplicaciones: maestro / esclavo',
+                link: 'https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000x1r9CAA&l=es-ES'
+            },
+            {
+                title: 'Grupo 4: Patrón Broker',
+                link: 'https://aprendearquitecturasoftware.wordpress.com/2018/10/08/grupo-4-patron-broker/'
             },
         ]
     },
