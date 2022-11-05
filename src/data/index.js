@@ -292,7 +292,7 @@ export default [
     {
         title: 'Gestión de la configuración y arquitectura de software',
         date: '21 de Octubre del 2022',
-        by: 'Grupo 4',
+        by: 'Grupo 4 ',
         paragraphs: [
             {
                 content: 'La Gestión de la Configuración del Software (GCS) es un proceso de  ingeniería, que indica procedimientos técnicos para el control y mejora de la calidad del software; los subprocesos o fases que lo  conforman  son:  Identificación  de  la  Configuración,  Control  de  Cambios,  Control  de  Versiones, Informes de Estado, Auditoría de la Configuración',
