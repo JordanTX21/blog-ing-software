@@ -1,5 +1,6 @@
 export default [
     {
+        week: 2,
         title: 'ETAPAS CICLO DE VIDA DE SOFTWARE DE ACUERDO A LAS NORMAS ISO Y NTP',
         date: '14 de Octubre del 2022',
         by: 'Grupo 4',
@@ -76,6 +77,7 @@ export default [
         ]
     },
     {
+        week: 3,
         title: 'Métodos, modelos y marcos de referencia para el desarrollo de Software',
         date: '14 de Octubre del 2022',
         by: 'Grupo 4',
@@ -157,6 +159,7 @@ export default [
         ]
     },
     {
+        week: 4,
         title: 'Metodologías Agiles',
         date: '14 de Octubre del 2022',
         by: 'Grupo 4',
@@ -214,6 +217,7 @@ export default [
         ]
     },
     {
+        week: 5,
         title: 'Principios de desarrollo de software',
         date: '28 de Octubre del 2022',
         by: 'Grupo 4',
@@ -290,6 +294,7 @@ export default [
         ]
     },
     {
+        week: 6,
         title: 'Gestión de la configuración y arquitectura de software',
         date: '21 de Octubre del 2022',
         by: 'Grupo 4 ',
@@ -375,6 +380,7 @@ export default [
         ]
     },
     {
+        week: 7,
         title: 'Gestión de la calidad de software',
         date: '04 de Noviembre del 2022',
         by: 'Grupo 4',
@@ -468,6 +474,110 @@ export default [
                 title: 'Quesada Madriz Gilberto. (2005, septiembre 2).Los 8 principios de gestión de la calidad',
                 link: 'https://www.gestiopolis.com/los-8-principios-de-gestion-de-la-calidad/'
             },
+        ]
+    },
+    {
+        week: 9,
+        title: 'Planificación de proyectos de desarrollo de software',
+        date: '14 de Noviembre del 2022',
+        by: 'Grupo 4',
+        paragraphs: [
+        ],
+        references: [
+        ]
+    },
+    {
+        week: 10,
+        title: 'Planificación de proyectos de desarrollo de software',
+        date: '14 de Noviembre del 2022',
+        by: 'Grupo 4',
+        paragraphs: [
+        ],
+        references: [
+        ]
+    },
+    {
+        week: 11,
+        title: 'Gestión de cambios en desarrollo de software',
+        date: '21 de Noviembre del 2022',
+        by: 'Grupo 4',
+        paragraphs: [
+        ],
+        references: [
+        ]
+    },
+    {
+        week: 12,
+        title: 'Gestión de riesgos en desarrollo de software',
+        date: '16 de Diciembre del 2022',
+        by: 'Grupo 4',
+        paragraphs: [
+            {
+                contenct: "Muchos incidentes están relacionados con problemas en el software. Pero estos problemas rara vez ocupan las páginas de los periódicos, y solamente llaman nuestra atención cuando se producen en sistemas críticos, causando pérdida de vidas humanas o arruinando grandes inversiones",
+                quote: "Fernandez, 2012"
+            },
+            {
+                contenct: "El software es en nuestros días un elemento crítico en todos los sistemas, el desarrollo y la puesta en marcha de programas de ordenador están sujetos a numerosos riesgos que deben ser objeto de una gestión cuidadosa, la gestión de riesgos en proyectos de software es una actividad reglada en múltiples metodologías pero que en la práctica se aplica de forma muy desigual en los distintos equipos de trabajo y organizaciones",
+                quote: "Fernandez, 2012"
+            },
+            {
+                contenct: "Hablar de riesgos es hablar de futuro, de probabilidades, de incertidumbre, de avances o retrocesos. Toda actividad implica un riesgo, y aunque algunos ubican la etimología en la palabra en “risco”, esto no implica de por sí una valoración negativa, todo cambio implica peligros, pero el peor peligro es la inmovilidad. Un riesgo es la probabilidad de que ocurra una pérdida. Los riesgos técnicos del software son la medida de la probabilidad y severidad de que se produzcan efectos adversos en el desarrollo, adquisición, mantenimiento etc. de sistema. Todas las áreas en el desarrollo de sistemas son fuentes potenciales de riesgos de software",
+                quote: "Caballero, 2012"
+            },
+            {
+                contenct: "Las organizaciones cada vez están siendo más conscientes de la importancia de gestionar riesgos en proyectos de software y en general, en proyectos tecnológicos ",
+                quote: "Sanchez,2009"
+            },
+            {
+                contenct: "Este cambio se ha dado principalmente a partir de las experiencias que han vivido grandes compañías por no haber gestionado los riesgos y que les representó pérdidas tanto financieras como reputacionales. En general, en estos casos el factor común fue la falta de planeación y anticipación a los posibles eventos adversos que cada proyecto puede presentar en sus diferentes etapas ",
+                quote: "Sanchez,2009"
+            },
+            {
+                contenct: "La clasificación que se plantea está basada en elementos o características de los proyectos de software en general y que son claves para la identificación de los riesgos:",
+                list: [
+                    "Complejidad tecnológica",
+                    "Entorno organizacional",
+                    "Equipo de trabajo",
+                    "Planificación y control",
+                    "Requerimientos",
+                    "Usuarios"
+                ],
+                quote: "Arque, 2015"
+            },
+            {
+                contenct: "Generalmente existen dos tipos de riesgos en proyectos de software: riesgos comunes que se presentan en todo proyecto y riesgos específicos",
+                quote: "Arque, 2015"
+            },
+            {
+                contenct: "Para los riesgos comunes se pueden utilizar listados estándares disponibles en el medio y a partir de un análisis adecuado, seleccionar los que apliquen a cada proyecto. Por su parte, para los riesgos específicos se describen aquellos ítems que diferencian el proyecto y con estos se identifican los riesgos ",
+                quote: "Arque, 2015"
+            },
+            {
+                contenct: "Durante el proceso de observación, algunas de las preguntas que pueden hacerse para centrar la atención en los elementos claves del riesgo son:",
+                quote: "Arque, 2015"
+            },
+            {
+                contenct: "",
+                quote: ""
+            },
+            {
+                contenct: "",
+                quote: ""
+            },
+        ],
+        references: [
+            {
+                title: "GESTIÓN DE RIESGOS EN PROYECTO DE SOFTWARE A DESARROLLAR EN EMPRESA PRIVADA ",
+                link: "https://core.ac.uk/download/pdf/143451627.pdf"
+            },
+            {
+                title: "Gestión de Riesgos en Proyectos Software - Unican-OCW ",
+                link: "https://ocw.unican.es/pluginfile.php/1408/course/section/1803/tema7-gestionRiesgos.pdf"
+            },
+            {
+                title: "Gestión de riesgos en proyectos de software - Pirani ",
+                link: "https://www.piranirisk.com/es/blog/gestion-de-riesgos-proyectos-de-software"
+            }
         ]
     },
 ]

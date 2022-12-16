@@ -21,7 +21,7 @@
             <div class="post-preview">
               <a href="#" class="" @click.prevent="toPost(post,index)">
                 <h2 class="post-title">{{post.title}}</h2>
-                <h3 class="post-subtitle">Semana {{index+2}}</h3>
+                <h3 class="post-subtitle">Semana {{post.week}}</h3>
               </a>
               <p class="post-meta">
                 Publicado por
